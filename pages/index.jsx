@@ -7,17 +7,17 @@ export default function Home() {
   return (
     <main>
       <Head>
-        <title>Burger buns</title>
-        <meta name="description" content="Burger buns - Zing Food" />
+        <title>Burger Buns</title>
+        <meta
+          name="description"
+          content="These super soft burger buns are fun and easy to make. They use the Tangzhong method, which gives a super soft hamburger bun which stays soft for days. These homemade burger buns can be made either in bun rings or freeform, and freeze extremely well. This burger bun recipe is super versatile and can be used for everything from burger buns to homemade slider buns."
+        />
         <meta property="og:title" content="Burger buns - Zing Food" />
         <meta
           property="og:description"
-          content="Burger buns - Zing Food"
+          content="These super soft burger buns are fun and easy to make. They use the Tangzhong method, which gives a super soft hamburger bun which stays soft for days. These homemade burger buns can be made either in bun rings or freeform, and freeze extremely well. This burger bun recipe is super versatile and can be used for everything from burger buns to homemade slider buns."
         />
-        <meta
-          property="og:url"
-          content="https://burger-buns.vercel.app/"
-        />
+        <meta property="og:url" content="https://burger-buns.vercel.app/" />
         <meta property="og:type" content="website" />
       </Head>
       <Script id="google-analytics" strategy="afterInteractive">
@@ -31,7 +31,15 @@ export default function Home() {
           ga('send', 'pageview');
         `}
       </Script>
-      <h1>Burger Buns</h1>
+      <h1>BURGER BUNS</h1>
+      <p>
+        These super soft burger buns are fun and easy to make. They use the
+        Tangzhong method, which gives a super soft hamburger bun which stays
+        soft for days. These homemade burger buns can be made either in bun
+        rings or freeform, and freeze extremely well. This burger bun recipe is
+        super versatile and can be used for everything from burger buns to
+        homemade slider buns.
+      </p>
       <img
         alt="Burger buns"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAOQs4EuR-qmZtp4UbiOOeapFF9cp6e2WkQ&usqp=CAU&fit=crop&w=620h=413"
