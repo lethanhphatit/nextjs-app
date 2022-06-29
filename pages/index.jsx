@@ -8,7 +8,17 @@ export default function Home() {
     <main>
       <Head>
         <title>BURGER KING MENU</title>
-        <meta name="description" content="Zing burger king menu - Zing Food" />
+        <meta name="description" content="Burger king menu - Zing Food" />
+        <meta property="og:title" content="Burger king menu - Zing Food" />
+        <meta
+          property="og:description"
+          content="Burger king menu - Zing Food"
+        />
+        <meta
+          property="og:url"
+          content="https://burger-king-menu.vercel.app/"
+        />
+        <meta property="og:type" content="website" />
       </Head>
       <Script id="google-analytics" strategy="afterInteractive">
         {`
