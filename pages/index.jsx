@@ -7,16 +7,16 @@ export default function Home() {
   return (
     <main>
       <Head>
-        <title>BURGER KING MENU</title>
-        <meta name="description" content="Burger king menu - Zing Food" />
-        <meta property="og:title" content="Burger king menu - Zing Food" />
+        <title>Burger buns</title>
+        <meta name="description" content="Burger buns - Zing Food" />
+        <meta property="og:title" content="Burger buns - Zing Food" />
         <meta
           property="og:description"
-          content="Burger king menu - Zing Food"
+          content="Burger buns - Zing Food"
         />
         <meta
           property="og:url"
-          content="https://burger-king-menu.vercel.app/"
+          content="https://burger-buns.vercel.app/"
         />
         <meta property="og:type" content="website" />
       </Head>
@@ -31,9 +31,9 @@ export default function Home() {
           ga('send', 'pageview');
         `}
       </Script>
-      <h1>BURGER KING MENU</h1>
+      <h1>Burger Buns</h1>
       <img
-        alt="burger king menu"
+        alt="Burger buns"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAOQs4EuR-qmZtp4UbiOOeapFF9cp6e2WkQ&usqp=CAU&fit=crop&w=620h=413"
       />
     </main>
